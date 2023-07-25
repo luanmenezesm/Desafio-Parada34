@@ -18,7 +18,7 @@ function calcularMedia() {
     nota3 > 10
   ) {
     document.getElementById("resultContainer").style.display = "none";
-    alert("As notas devem estar entre 1 e 10.");
+    alert("Certifique-se de que as notas devem estar entre 1 e 10.");
     return;
   }
 
